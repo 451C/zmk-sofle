@@ -54,17 +54,18 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1     &kp N2    &kp N3    &kp N4    &kp N5               &none           &kp N6    &kp N7   &kp N8     &kp N9      &kp N0      &kp MINUS
-&kp TAB     &kp Q      &kp W     &kp E     &kp R     &kp T                &none           &kp Y     &kp U    &kp I      &kp O       &kp P       &kp EQUAL
-&kp LCTRL   &kp A      &kp S     &kp D     &kp F     &kp G                &none           &kp H     &kp J    &kp K      &kp L       &kp SEMI    &kp APOS
-&kp LSHFT   &kp Z      &kp X     &kp C     &kp V     &kp B                &none           &kp N     &kp M    &kp COMMA  &kp DOT     &kp FSLH    &kp UNDER
-            &none      &kp LCTRL &kp LALT  &kp LGUI  &kp SPACE &kp ENTER  &none           &kp BSPC  &mo 1    &mo 2    &kp GRAVE  &kp BSLH
+&kp ESC     &kp N1     &kp N2    &kp N3    &kp N4    &kp N5                &none            &kp N6    &kp N7   &kp N8     &kp N9      &kp N0      &kp MINUS
+&kp TAB     &kp Q      &kp W     &kp E     &kp R     &kp T                 &none            &kp Y     &kp U    &kp I      &kp O       &kp P       &kp UNDER
+&kp LCTRL   &kp A      &kp S     &kp D     &kp F     &kp G                 &none            &kp H     &kp J    &kp K      &kp L       &kp SEMI    &kp APOS
+&kp LSHFT   &kp Z      &kp X     &kp C     &kp V     &kp B                 &none            &kp N     &kp M    &kp COMMA  &kp DOT     &kp FSLH    &kp PLUS
+            &none      &kp LCTRL &kp LALT  &kp LGUI  &kp SPACE  &kp ENTER  &none  &kp BSPC  &mo 1     &mo 4    &mo 2      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "LAYER0";
         };
 
+        /* fn */
         layer_1 {
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
@@ -78,6 +79,21 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
+        /* todo: symbol layer */
+        layer_4 {
+            bindings = <
+&trans  &trans     &trans           &trans        &trans        &trans             &none          &trans     &trans     &trans     &trans     &trans      &trans
+&trans  &kp GRAVE  &kp LT           &kp GT        &KP_MINUS     &kp PIPE           &none          &kp CARET  &kp LBRC   &kp RBRC   &kp DLLR   &kp QMARK   &kp BSLH
+&trans  &kp EXCL   &kp KP_ASTERISK  &kp KP_SLASH  &kp KP_EQUAL  &kp AMPS           &none          &kp HASH   &kp LPAR   &kp RPAR   &kp SEMI   &kp DQT     &trans
+&trans  &kp TILD   &kp KP_PLUS      &kp LBKT      &kp RBKT      &kp PRCNT          &none          &kp AT     &kp COLON  &kp COMMA  &kp DOT    &kp SQT     &trans
+        &none      &trans           &trans        &trans        &trans     &trans  &none  &trans  &trans     &trans     &trans     &trans
+            >;
+
+            display-name = "layer4";
+            sensor-bindings = <&scroll_encoder>;
+        };
+
+        /* hw settings */
         layer_2 {
             bindings = <
 &kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
@@ -104,16 +120,16 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-         display-name = "layer4";
-            sensor-bindings = <&scroll_encoder>;
-        };
+/*         layer_4 { */
+/*             bindings = < */
+/* &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans */
+/* &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans */
+/* &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans */
+/* &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans */
+/* &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans */
+/*             >; */
+/*          display-name = "layer4"; */
+/*             sensor-bindings = <&scroll_encoder>; */
+/*         }; */
     };
 };
