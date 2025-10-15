@@ -83,7 +83,7 @@
         layer_4 {
             bindings = <
 &trans  &trans     &trans           &trans        &trans        &trans             &none          &trans     &trans     &trans     &trans     &trans      &trans
-&trans  &kp GRAVE  &kp LT           &kp GT        &KP_MINUS     &kp PIPE           &none          &kp CARET  &kp LBRC   &kp RBRC   &kp DLLR   &kp QMARK   &kp BSLH
+&trans  &kp GRAVE  &kp LT           &kp GT        &kp KP_MINUS  &kp PIPE           &none          &kp CARET  &kp LBRC   &kp RBRC   &kp DLLR   &kp QMARK   &kp BSLH
 &trans  &kp EXCL   &kp KP_ASTERISK  &kp KP_SLASH  &kp KP_EQUAL  &kp AMPS           &none          &kp HASH   &kp LPAR   &kp RPAR   &kp SEMI   &kp DQT     &trans
 &trans  &kp TILD   &kp KP_PLUS      &kp LBKT      &kp RBKT      &kp PRCNT          &none          &kp AT     &kp COLON  &kp COMMA  &kp DOT    &kp SQT     &trans
         &none      &trans           &trans        &trans        &trans     &trans  &none  &trans  &trans     &trans     &trans     &trans
