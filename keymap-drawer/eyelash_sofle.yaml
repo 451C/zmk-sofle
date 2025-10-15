@@ -148,7 +148,7 @@ layers:
   - {t: '`', s: '~'}
   - <
   - '>'
-  - '&KP_MINUS'
+  - KP MINUS
   - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - ^
