@@ -60,7 +60,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace$$', h: NUM}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - FN
   - SYMBOL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -86,7 +86,7 @@ layers:
   - F9
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:skip-next$$
+  - $$mdi:skip-previous$$
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
@@ -112,10 +112,10 @@ layers:
   - F3
   - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:skip-previous$$
-  - $$mdi:brightness-5$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:skip-next$$
   - $$mdi:brightness-7$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:brightness-5$$
   - {t: '$$mdi:transfer$$', type: trans}
   - F12
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -320,7 +320,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
