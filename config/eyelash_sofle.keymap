@@ -47,6 +47,12 @@
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
+
+        softoff2 {
+            bindings = <&soft_off>;
+            key-positions = <24 36 50>;
+        };
+
     };
 
     keymap {
