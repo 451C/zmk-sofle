@@ -52,16 +52,6 @@
             bindings = <&soft_off>;
             key-positions = <24 36 50>;
         };
-        
-        bootloader {
-            bindings = <&bootloader>;
-            key-positions = <12 59 60>;
-        };
-
-        bootloader2 {
-            bindings = <&bootloader>;
-            key-positions = <0 56 57>;
-        };
     };
 
     keymap {
