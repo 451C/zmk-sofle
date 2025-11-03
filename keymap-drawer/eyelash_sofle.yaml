@@ -330,7 +330,3 @@ combos:
   k: '&soft_off'
 - p: [24, 36, 50]
   k: '&soft_off'
-- p: [12, 59, 60]
-  k: $$mdi:progress-download$$
-- p: [0, 56, 57]
-  k: $$mdi:progress-download$$
