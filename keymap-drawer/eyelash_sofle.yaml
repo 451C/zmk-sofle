@@ -64,7 +64,7 @@ layers:
   - FN
   - SYMBOL
   - SYS
-  - '&no tne'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
