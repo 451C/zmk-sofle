@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - FN
+  - {t: GLOBE, h: FN}
   - $$mdi:apple-keyboard-option$$
   - LGUI
   - $$mdi:keyboard-space$$
