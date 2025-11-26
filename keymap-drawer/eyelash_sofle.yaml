@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - GLOBE
+  - F13
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - FN
   - $$mdi:apple-keyboard-option$$
