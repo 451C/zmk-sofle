@@ -40,7 +40,7 @@ layers:
   - L
   - ':'
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -52,11 +52,11 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - F13
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - FN
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -64,7 +64,7 @@ layers:
   - FN
   - SYMBOL
   - SYS
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F13
   FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
